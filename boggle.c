@@ -70,7 +70,7 @@ char board[50] = "         \n"
 int main(int argc, char **argv) {
 	if(argc > 1 && argv[1][1] == 'd') debug = 1;
 	uint8_t i = 5;
-	uint8_t j = 5;
+	uint8_t j;
 	srand(time(0));
 
 	while(i-->0) {
